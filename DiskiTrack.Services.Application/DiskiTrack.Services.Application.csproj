@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\DiskiTrack.Contracts\DiskiTrack.Contracts.csproj" />
+    <ProjectReference Include="..\DiskiTrack.DataAccess.Models\DiskiTrack.DataAccess.Models.csproj" />
+    <ProjectReference Include="..\DiskiTrack.DataAccess.Repository\DiskiTrack.DataAccess.Repository.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
