@@ -32,10 +32,3 @@ Thumbs.db
 
 # Local-only folders in this branch scope
 docs/
-frontend/
-infra/
-services/
-DiskiTrack.PayGate/
-DiskiTrack.PushNotification/
-DiskiTrack.Tests/
-DiskiTrack.Worker/

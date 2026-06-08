@@ -1,0 +1,14 @@
+﻿version: "3.9"
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: diskitrack
+      POSTGRES_PASSWORD: diskitrack
+      POSTGRES_DB: "DiskiTracker-Local"
+    ports:
+      - "5432:5432"
+  redis:
+    image: redis:7
+    ports:
+      - "6379:6379"
