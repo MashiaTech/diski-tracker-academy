@@ -29,3 +29,13 @@ Thumbs.db
 # Test and coverage outputs
 **/TestResults/
 **/coverage/
+
+# Local-only folders in this branch scope
+docs/
+frontend/
+infra/
+services/
+DiskiTrack.PayGate/
+DiskiTrack.PushNotification/
+DiskiTrack.Tests/
+DiskiTrack.Worker/
